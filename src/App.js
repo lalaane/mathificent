@@ -1,25 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className='App'>
+			<header>
+				<nav className='navbar navbar-expand-lg navbar-dark bg-dark'>
+					<button className='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarText'>
+						<span className='navbar-toggler-icon'></span>
+					</button>
+					<div className='collapse navbar-collapse' id='navbarText'>
+						<ul className='navbar-nav mr-auto text-left'>
+							<li className='nav-item active'>
+								<a className='nav-link' href='/'>
+									Home
+								</a>
+							</li>
+						</ul>
+					</div>
+					<a className='navbar-brand' href='/'>
+						Mathificent
+					</a>
+				</nav>
+			</header>
+			<h1>Mathificent</h1>
+			<footer className='navbar fixed-bottom bg-dark'>
+				<a href='https://www.webucator.com' className='text-light'>
+					Copyright &copy; {new Date().getFullYear()} Webucator
+				</a>
+			</footer>
+		</div>
+	);
 }
 
 export default App;
