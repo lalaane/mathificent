@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 
-function SelectInput({ label, id, values }) {
+function SelectInput({ label, id, values, currentValue, setCurrentValue }) {
 	const selectOptions = values.map((value) => {
 		return (
 			<option value={value} key={value.toString()}>
@@ -11,7 +11,9 @@ function SelectInput({ label, id, values }) {
 	return (
 		<Fragment>
 			<label htmlFor={id}>{label}</label>
-			<select id={id}>{selectOptions}</select>
+			<select id={id} defaultValue={currentValue} onChange={(e) => setCurrentValue(e.target.value)}>
+				{selectOptions}
+			</select>
 			<br />
 		</Fragment>
 	);
