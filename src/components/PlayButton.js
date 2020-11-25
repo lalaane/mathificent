@@ -1,7 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function PlayButton() {
-	return <button>Play!</button>;
+	return (
+		<Link to='/play' className='btn btn-primary'>
+			Play!
+		</Link>
+	);
 }
 
 export default PlayButton;
