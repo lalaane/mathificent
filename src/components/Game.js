@@ -7,6 +7,7 @@ import ClearButton from './ClearButton';
 import './Game.css';
 import { randInt } from '../helpers/helpers';
 import { Link } from 'react-router-dom';
+import Keyboard from './Keyboard';
 
 function Game({ operation, maxNumber }) {
 	let randNums = getRandNumbers(operation, 0, maxNumber);
@@ -122,6 +123,7 @@ function Game({ operation, maxNumber }) {
 					<ClearButton handleClick={setUserAnswer} />
 				</div>
 			</div>
+			<Keyboard setUserAnswer={setUserAnswer} />
 		</main>
 	);
 }
