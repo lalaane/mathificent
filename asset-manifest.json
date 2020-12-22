@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/mathificent/static/css/main.9173461e.chunk.css",
+    "main.js": "/mathificent/static/js/main.f805c375.chunk.js",
+    "main.js.map": "/mathificent/static/js/main.f805c375.chunk.js.map",
+    "runtime-main.js": "/mathificent/static/js/runtime-main.41e7d7ae.js",
+    "runtime-main.js.map": "/mathificent/static/js/runtime-main.41e7d7ae.js.map",
+    "static/js/2.82eb0cd4.chunk.js": "/mathificent/static/js/2.82eb0cd4.chunk.js",
+    "static/js/2.82eb0cd4.chunk.js.map": "/mathificent/static/js/2.82eb0cd4.chunk.js.map",
+    "index.html": "/mathificent/index.html",
+    "static/css/main.9173461e.chunk.css.map": "/mathificent/static/css/main.9173461e.chunk.css.map",
+    "static/js/2.82eb0cd4.chunk.js.LICENSE.txt": "/mathificent/static/js/2.82eb0cd4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.41e7d7ae.js",
+    "static/js/2.82eb0cd4.chunk.js",
+    "static/css/main.9173461e.chunk.css",
+    "static/js/main.f805c375.chunk.js"
+  ]
+}
